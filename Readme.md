@@ -263,3 +263,71 @@ CommonJS me default export jaisi koi concept nahi hoti.
 Ye sirf ES6 Modules (ESM) ka feature hai.
 
 
+<!-- Tpes of APi  -->
+# 🚀 TYPES OF APIs - CHEAT SHEET
+
+## 1. Classification by Access Policy (Who can use it?)
+
+### 🌐 Public APIs (Open APIs)
+- **Description:** Publicly available to any developer or external user with minimal or no restrictions.
+- **Use Case:** Weather data, public cryptocurrency prices, map integrations.
+- **Example:** OpenWeatherMap API, Google Maps Public API.
+
+### 🔒 Private APIs (Internal APIs)
+- **Description:** Hidden from external users. Used exclusively inside an organization to connect internal systems and microservices.
+- **Use Case:** Connecting a company's HR system to its Payroll database.
+- **Example:** Internal backend service communicating with internal database.
+
+### 🤝 Partner APIs
+- **Description:** Shared only with specific, authorized business partners. Requires special authorization keys or tokens.
+- **Use Case:** E-commerce platforms integrating third-party payment gateways.
+- **Example:** Amazon integrating Stripe/PayPal API, Swiggy integrating Google Maps API.
+
+---
+
+## 2. Classification by Architecture & Protocol (How they work?)
+
+### 1️⃣ REST API (Representational State Transfer)
+- **Format:** Primarily JSON (also supports XML, Text).
+- **Protocol:** Standard HTTP (`GET`, `POST`, `PUT`, `DELETE`).
+- **Characteristics:** Stateless, scalable, standard web architecture.
+- **Best For:** Modern web/mobile applications, CRUD operations.
+
+### 2️⃣ GraphQL
+- **Format:** JSON.
+- **Protocol:** Single HTTP Endpoint (usually `POST`).
+- **Characteristics:** Allows clients to request **only** the specific data they need (eliminates over-fetching & under-fetching).
+- **Best For:** Complex applications, low-bandwidth environments, data-rich dashboards.
+
+### 3️⃣ WebSocket API
+- **Format:** JSON, Text, Binary.
+- **Protocol:** WS / WSS (Full-Duplex Persistent Connection).
+- **Characteristics:** Real-time, two-way communication channel between client and server without repeated HTTP requests.
+- **Best For:** Chat applications, live sports scores, stock trading platforms, multiplayer games.
+
+### 4️⃣ SOAP API (Simple Object Access Protocol)
+- **Format:** Strictly XML.
+- **Protocol:** HTTP, SMTP, TCP.
+- **Characteristics:** Highly structured, strict built-in security (WS-Security), heavy payload.
+- **Best For:** Enterprise systems, financial institutions, banking payment gateways.
+
+### 5️⃣ gRPC (Google Remote Procedure Call)
+- **Format:** Protocol Buffers (Binary format).
+- **Protocol:** HTTP/2.
+- **Characteristics:** Extremely fast, lightweight, high-performance inter-service communication.
+- **Best For:** Microservices architecture, real-time streaming, high-throughput systems.
+
+---
+
+## 💡 Quick Summary Matrix
+
+| API Type | Data Format | Speed | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **REST** | JSON | Fast | General Web & Mobile Apps |
+| **GraphQL** | JSON | Very Fast | Custom/Flexible Frontends |
+| **WebSocket** | Any | Real-Time | Live Chat / Stock Updates |
+| **SOAP** | XML | Slower | High Security (Banking) |
+| **gRPC** | Binary | Ultra Fast | Internal Microservices |
+
+
+
