@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "ES6 ne bola\r Har file ek Module hogi.\r Matlab\r math.js\r aur\r user.js\r ab alag-alag room ki tarah hain.\r Ek file ke variables dusri file me automatically nahi milenge.\r Ye isolation provide karta hai.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujeet-bhardwaj/NodejsAnd-Exprees-js-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujeet-bhardwaj/NodejsAnd-Exprees-js-/issues"
+  },
+  "homepage": "https://github.com/sujeet-bhardwaj/NodejsAnd-Exprees-js-#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1"
+  }
+}
